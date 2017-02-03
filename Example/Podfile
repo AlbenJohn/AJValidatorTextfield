@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AJvalidatorTextField_Example' do
+  pod 'AJvalidatorTextField', :path => '../'
+
+  target 'AJvalidatorTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
