@@ -27,7 +27,7 @@ class ViewController: UIViewController,ValidationDelegate,UITextFieldDelegate {
         
         
         validator.styleTransformers(success:{ (validationRule) -> Void in
-            print("here")
+            print("Workin here")
             // clear error label
             validationRule.errorLabel?.isHidden = true
             validationRule.errorLabel?.text = ""
