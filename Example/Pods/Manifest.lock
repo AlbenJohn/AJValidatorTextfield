@@ -1,0 +1,16 @@
+PODS:
+  - AJvalidatorTextField (0.1.0)
+
+DEPENDENCIES:
+  - AJvalidatorTextField (from `../`)
+
+EXTERNAL SOURCES:
+  AJvalidatorTextField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AJvalidatorTextField: 85caa00521898f36d32268d6905abeeb2dd6ffda
+
+PODFILE CHECKSUM: 4d23c655f56ca034f0c7a17848a80c94126b94bd
+
+COCOAPODS: 1.2.0

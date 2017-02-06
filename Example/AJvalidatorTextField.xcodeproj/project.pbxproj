@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06FA863EA1DC53275BDC34D4 /* Pods_AJvalidatorTextField_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A299403EE026780B26CA20 /* Pods_AJvalidatorTextField_Tests.framework */; };
+		1A9BC7D01E44B34500B2376E /* AJvalidatorTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9BC7CF1E44B34500B2376E /* AJvalidatorTextField.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,8 +30,9 @@
 
 /* Begin PBXFileReference section */
 		0147DAF2C1A9DED815FD5338 /* Pods_AJvalidatorTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJvalidatorTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9BC7CF1E44B34500B2376E /* AJvalidatorTextField.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AJvalidatorTextField.framework; path = "../../../../Library/Developer/Xcode/DerivedData/AJvalidatorTextField-clbauwqgyocvhedajnunubxrdwqz/Build/Products/Debug-iphonesimulator/AJvalidatorTextField/AJvalidatorTextField.framework"; sourceTree = "<group>"; };
 		36743919773AB7C5A780B776 /* Pods-AJvalidatorTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJvalidatorTextField_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJvalidatorTextField_Tests/Pods-AJvalidatorTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5C904B9BFC05EF223C9B8AE0 /* AJvalidatorTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AJvalidatorTextField.podspec; path = ../AJvalidatorTextField.podspec; sourceTree = "<group>"; };
+		5C904B9BFC05EF223C9B8AE0 /* AJvalidatorTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AJvalidatorTextField.podspec; path = ../AJvalidatorTextField.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AJvalidatorTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJvalidatorTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +45,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		62CC76EA37031C39D9629385 /* Pods-AJvalidatorTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJvalidatorTextField_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJvalidatorTextField_Example/Pods-AJvalidatorTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		79519F5E9A9C233AD235421D /* Pods-AJvalidatorTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJvalidatorTextField_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJvalidatorTextField_Example/Pods-AJvalidatorTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9BB351062A3610D82C7EBA8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9BB351062A3610D82C7EBA8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B537617D3C12F35A1B3EB290 /* Pods-AJvalidatorTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJvalidatorTextField_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJvalidatorTextField_Tests/Pods-AJvalidatorTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0A299403EE026780B26CA20 /* Pods_AJvalidatorTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJvalidatorTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C371AF8A08C1CDD4BC9B538B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C371AF8A08C1CDD4BC9B538B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9BC7D01E44B34500B2376E /* AJvalidatorTextField.framework in Frameworks */,
 				AF7A52450EE5E0230FF29B32 /* Pods_AJvalidatorTextField_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +75,7 @@
 		1E6868C9886A89A7170C782F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1A9BC7CF1E44B34500B2376E /* AJvalidatorTextField.framework */,
 				0147DAF2C1A9DED815FD5338 /* Pods_AJvalidatorTextField_Example.framework */,
 				C0A299403EE026780B26CA20 /* Pods_AJvalidatorTextField_Tests.framework */,
 			);
@@ -215,9 +219,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -494,6 +500,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,6 +514,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -526,6 +534,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -541,6 +550,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

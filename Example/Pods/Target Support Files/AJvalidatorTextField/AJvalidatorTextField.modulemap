@@ -1,0 +1,6 @@
+framework module AJvalidatorTextField {
+  umbrella header "AJvalidatorTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
